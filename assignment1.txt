@@ -1,0 +1,85 @@
+1.)Why do computers understand only binary language?
+A.) Computers are made up of many hardware objects like processor,ram and many more.
+    computer hardwares are mostly made up of diodes which operates in 2 ways only i.e.on and off state.
+    the hard ware which are not made up of diaode also works only in on/off state.
+    in on state current is flowing through diode and in off state current is not flowing through the diode.
+    so computers only understande the binary language. in which 1 represent on and 0 represent off.
+
+2.)What is the full form of IDE?
+A.)  Integrated development environment.
+
+3.)What is the difference between a text editor and a code editor?
+A.)a text editor used to edit the text only it does not hepl us to write code. 
+the code editor helps to write code it is also a text editor.
+
+4.)What are the steps to develop software using the C language?
+i) create source file.
+ii) build software.-a.)compiler compile the text file.
+
+5.)What is the latest version of C Language?
+A.) C17,upcomming C23
+b. Who developed C Language?
+A.) Dennis Ritchie
+c. What is the difference between System and Application Software?
+A.)           System Software
+i./ System software is used for operating computer hardware.
+ii./ System softwares are installed on the computer when operating system is installed.
+iii./ The user does not interact with system software because it works in the background.
+Some examples of system softwares are compiler, assembler, debugger, driver, etc.
+             Application Software
+i./ Application software is used by user to perform specific task.
+ii./ Application softwares are installed according to user’s requirements.
+iii./ The user interacts with application sofwares.
+iv./ Application software can’t run independently. They can’t run without the presence of system software.
+Some examples of application softwares are word processor, web browser, media player, etc.
+
+d. How to convert a number from a decimal number system to a binary number
+system?
+A.1.)
+i./Take decimal number as dividend.
+ii./ Divide this number by 2 (2 is base of binary so divisor here).
+iii./ Store the remainder in an array (it will be either 0 or 1 because of divisor 2).
+iv./ Repeat the above two steps until the number is greater than zero.
+v./ Print the array in reverse order (which will be equivalent binary number of given decimal number)
+                    remainder
+eg. 169/2= 84           1
+    84/2 = 42           0
+    42/2 = 21		0
+    21/2 = 10		1
+    10/2 = 5		0
+    5/2  = 2		1
+    2/2  = 1		0
+    1/2  = 0		1
+                                    so binary is 10101001
+A.2.)
+i./ Take decimal number as multiplicand.
+ii/ Multiple this number by 2 (2 is base of binary so multiplier here).
+iii./ Store the value of integer part of result in an array (it will be either 0 or 1 because of multiplier 2).
+iv./ Repeat the above two steps until the number became zero.
+v./Print the array (which will be equivalent fractional binary number of given decimal fractional number)
+   
+e.g.
+0.81252 x 2= 1.625	1
+0.6252 x 2= 1.25	1
+0.252 x 2= 0.50		0
+0.52 x 2= 1.0		1
+0 x 2 = 0		0
+
+A.3.)
+i./ Look for the greatest power of 2.
+ii./ Move to the next lower power of two.
+iii./ Subtract each successive number that can fit, and mark it with a 1.
+iv./ Continue until you reach the end of your chart.
+v./ Write out the binary answer
+
+e.g.Subtract given number 205 from maximum possible power of 2,
+= 205 - 128 = 77
+Put 1 in box of 128 (= 27), then again subtract remaining number 77 from maximum possible power of 2,
+= 77 - 64 =13
+Put 1 in box of 64 (= 26), then repeat above steps,
+= 13 - 8 =5
+= 5 - 4 =1
+= 1 - 1 =0
+And put a 0 in remaining boxes.
+
+ 

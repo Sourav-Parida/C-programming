@@ -1,0 +1,32 @@
+1.) Which of the following are real constants?
+3, ‘A’, 4.5, 3.0, ‘+’, -25, -0.0
+A.// 4.5,3.0
+
+2.) Which of the following are not keywords in C Language?
+auto, dynamic, static, typedef, define, enum, is, default, this, super
+A.// auto,static,typedef, is, default, enum
+	all key words ----- Keywords in C Programming
+auto		break		case		char
+const		continue	default		do
+double		else		enum		extern
+float		for		goto		if
+int		long		register	return
+short		signed		sizeof		static
+struct		switch		typedef		union
+unsigned	void		volatile	while
+
+4. Can we make a variable with the name switch? (Yes or No)
+A./// NO
+5. Keywords are defined in the compiler or their meaning is stored in the library?
+A./// defined in the compiler
+6. Where variables are created? (RAM, ROM, Secondary Storage or CPU)
+A./// RAM
+7. Who developed C Language?
+A./// Dennis Ritchie
+8. When was the C language developed?
+A./// 1970s
+9. What is the name of the operating system which is responsible for the inception of
+the C language?
+A./// Unix 
+10. Whether C language is a high level or low level programming language?
+A./// High-level language.
