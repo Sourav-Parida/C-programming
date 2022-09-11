@@ -1,4 +1,5 @@
 //13. Write a function to print first N prime numbers (TSRN)
+// not completed
 
 #include<stdio.h>
 #include<conio.h>
